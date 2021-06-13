@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\charlotte.mythen\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\charlotte.mythen\\.nuget\\packages"
+    ]
+  }
+}
