@@ -13,18 +13,18 @@ namespace Songs.Controllers
     {
         private static readonly string[] Songs = new[]
         {
-            "song 1",
-            "song 2",
-            "song 3",
-            "song 4",
-            "song 5",
-            "song 6",
-            "song 7",
-            "song 8",
-            "song 9",
-            "song 10",
-            "song 11",
-            "song 12",
+            "SONG 1",
+            "SONG 2",
+            "SONG 3",
+            "SONG 4",
+            "SONG 5",
+            "SONG 6",
+            "SONG 7",
+            "SONG 8",
+            "SONG 9",
+            "SONG 10",
+            "SONG 11",
+            "SONG 12",
         };
 
         [HttpGet]
