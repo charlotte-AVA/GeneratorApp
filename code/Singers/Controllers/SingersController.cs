@@ -13,16 +13,16 @@ namespace Singers.Controllers
     {
         private static readonly string[] Singers = new[]
         {
-            "singer 1",
-            "singer 2",
-            "singer 3",
-            "singer 4",
-            "singer 5",
-            "singer 6",
-            "singer 7",
-            "singer 8",
-            "singer 9",
-            "singer 10", 
+            "SINGER 1",
+            "SINGER 2",
+            "SINGER 3",
+            "SINGER 4",
+            "SINGER 5",
+            "SINGER 6",
+            "SINGER 7",
+            "SINGER 8",
+            "SINGER 9",
+            "SINGER 10", 
         };
 
         [HttpGet]

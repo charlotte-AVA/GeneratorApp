@@ -24,7 +24,6 @@ C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\c
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\FrontEnd.TagHelpers.output.cache
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\FrontEnd.RazorCoreGenerate.cache
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\charlotte.mythen\Documents\QA_Training\Practical-project\GeneratorApp\code\FrontEnd\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
