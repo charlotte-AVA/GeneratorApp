@@ -9,31 +9,29 @@ namespace Singers.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class SingersController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private static readonly string[] Singers = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "singer 1",
+            "singer 2",
+            "singer 3",
+            "singer 4",
+            "singer 5",
+            "singer 6",
+            "singer 7",
+            "singer 8",
+            "singer 9",
+            "singer 10", 
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public ActionResult<string> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            var rnd = new Random();
+            var returnIndex = rnd.Next(0, 10);
+            return Singers[returnIndex].ToString();
         }
+
     }
 }
