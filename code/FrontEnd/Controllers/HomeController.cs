@@ -19,7 +19,7 @@ namespace FrontEnd.Controllers
         {
             Configuration = configuration;
         }
-        // applicationUrl": "http://localhost:43813" **MERGE**
+        // MERGE Url: "http://localhost:43813"
         public async Task<IActionResult> Index()
         {
             //var mergeService = "http://localhost:43813/merge";

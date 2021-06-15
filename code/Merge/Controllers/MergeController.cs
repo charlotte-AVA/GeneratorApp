@@ -13,8 +13,8 @@ namespace Merge.Controllers
     [Route("[controller]")]
     public class MergeController : ControllerBase
     {
-        // applicationUrl: "http://localhost:3889" **SONGS**
-        // applicationUrl": "http://localhost:40971" **SINGERS**
+        // SONGS Url: "http://localhost:3889"
+        // SINGERS Url: "http://localhost:40971" 
         private IConfiguration Configuration; 
 
         public MergeController(IConfiguration configuration)
