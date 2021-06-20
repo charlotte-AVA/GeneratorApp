@@ -29,7 +29,7 @@ namespace Singers.Controllers
         public ActionResult<string> Get()
         {
             var rnd = new Random();
-            var returnIndex = rnd.Next(0, 10);
+            var returnIndex = rnd.Next(0, 9);
             return Singers[returnIndex].ToString();
         }
 
