@@ -31,7 +31,7 @@ namespace Songs.Controllers
         public ActionResult<string> Get()
         {
             var rnd = new Random();
-            var returnIndex = rnd.Next(0, 11);
+            var returnIndex = rnd.Next(0, 12);
             return Songs[returnIndex].ToString();
         }
     }
