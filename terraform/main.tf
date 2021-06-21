@@ -13,13 +13,13 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "main" {
     # creating a resource group for webb app
-    name = "CEM-main-rg"
-    location = "uksouth"
+    name = var.project_name
+    location = var.location
 }
 
 resource "azurerm_app_service_plan" "sp" {
     # creating a service plan (SP) for web app
-    name = "CEM-app-svc"
+    name = var.sp_name
     kind = "Linux"
     reserved = true //include if using linux 
     sku { 
@@ -33,7 +33,7 @@ resource "azurerm_app_service_plan" "sp" {
 
 resource "azurerm_app_service" "webapp1" {
     # creating web app
-    name = "CEM-webapp1"
+    name = var.s1_name
     resource_group_name=azurerm_resource_group.main.name
     location=azurerm_resource_group.main.location
     app_service_plan_id=azurerm_app_service_plan.sp.id
@@ -41,7 +41,7 @@ resource "azurerm_app_service" "webapp1" {
 
 resource "azurerm_app_service" "webapp2" {
     # creating web app
-    name = "CEM-webapp2"
+    name = var.s3_name
     resource_group_name=azurerm_resource_group.main.name
     location=azurerm_resource_group.main.location
     app_service_plan_id=azurerm_app_service_plan.sp.id
@@ -49,15 +49,7 @@ resource "azurerm_app_service" "webapp2" {
 
 resource "azurerm_app_service" "webapp3" {
     # creating web app
-    name = "CEM-webapp3"
-    resource_group_name=azurerm_resource_group.main.name
-    location=azurerm_resource_group.main.location
-    app_service_plan_id=azurerm_app_service_plan.sp.id
-}
-
-resource "azurerm_app_service" "webapp4" {
-    # creating web app
-    name = "CEM-webapp4"
+    name = var.s3_name
     resource_group_name=azurerm_resource_group.main.name
     location=azurerm_resource_group.main.location
     app_service_plan_id=azurerm_app_service_plan.sp.id
