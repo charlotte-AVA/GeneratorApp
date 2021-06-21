@@ -21,7 +21,7 @@ variables:
     value: rg-terraform-demo
   # Name of the storage account for the state file
   - name: tfStateStName
-    value: stterraformdemo
+    value: stterraformdemo1
   # Name of the container for the state file
   - name: tfStateCtrName
     value: terraform
