@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration; // added namespace (2)
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;//added namespace
 
 namespace Merge.Controllers
 {
@@ -15,11 +16,17 @@ namespace Merge.Controllers
     {
         // SONGS Url: "http://localhost:3889"
         // SINGERS Url: "http://localhost:40971" 
-        private IConfiguration Configuration; 
 
-        public MergeController(IConfiguration configuration)
+        //private IConfiguration Configuration; 
+        //public MergeController(IConfiguration configuration)
+        //{
+        //    Configuration = configuration;
+        //}
+
+        private AppSettings Configuration;
+        public MergeController(IOptions<AppSettings> settings)
         {
-            Configuration = configuration;
+            Configuration = settings.Value; 
         }
 
         [HttpGet]
