@@ -33,11 +33,13 @@ namespace Merge.Controllers
         public async Task<IActionResult> Get()
         {
             //var songsService = "http://localhost:3889/songs";
-            var songsService = $"{Configuration["songsServiceURL"]}/songs";
+            //var songsService = $"{Configuration["songsServiceURL"]}/songs";
+            var songsService = $"{Configuration.songsServiceURL}/songs";
             var songsResponseCall = await new HttpClient().GetStringAsync(songsService);
 
             //var singersService = "http://localhost:40971/singers";
-            var singersService = $"{Configuration["singersServiceURL"]}/singers";
+            //var singersService = $"{Configuration["singersServiceURL"]}/singers";
+            var singersService = $"{Configuration.singersServiceURL}/singers";
             var singersResponseCall = await new HttpClient().GetStringAsync(singersService);
 
             var mergeResponse = $"You will be singing {songsResponseCall} in the style of {singersResponseCall}";
