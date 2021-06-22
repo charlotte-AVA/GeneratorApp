@@ -42,6 +42,9 @@ namespace Merge
             services.AddRouting(r => r.LowercaseUrls = true); // enable lowercase Urls
 
             services.AddControllers();
+
+            services.Configure<AppSettings>(options => Configuration.GetSection("AppSettings").Bind(options));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Merge", Version = "v1" });
