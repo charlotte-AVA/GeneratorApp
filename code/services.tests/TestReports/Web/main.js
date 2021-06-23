@@ -225,9 +225,6 @@ var assemblies = [
     "name": "FrontEnd",
     "classes": [
       { "name": "FrontEnd.Controllers.HomeController", "rp": "FrontEnd_HomeController.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 32, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Models.ErrorViewModel", "rp": "FrontEnd_ErrorViewModel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Program", "rp": "FrontEnd_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "FrontEnd.Startup", "rp": "FrontEnd_Startup.html", "cl": 0, "ucl": 29, "cal": 29, "tl": 58, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "FrontEnd.Views",
@@ -242,22 +239,16 @@ var assemblies = [
     "classes": [
       { "name": "Merge.AppSettings", "rp": "Merge_AppSettings.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 13, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Merge.Controllers.MergeController", "rp": "Merge_MergeController.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 49, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Merge.Program", "rp": "Merge_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Merge.Startup", "rp": "Merge_Startup.html", "cl": 0, "ucl": 34, "cal": 34, "tl": 76, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Singers",
     "classes": [
       { "name": "Singers.Controllers.SingersController", "rp": "Singers_SingersController.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 37, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Singers.Program", "rp": "Singers_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Singers.Startup", "rp": "Singers_Startup.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Songs",
     "classes": [
       { "name": "Songs.Controllers.SongsController", "rp": "Songs_SongsController.html", "cl": 20, "ucl": 0, "cal": 20, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Songs.Program", "rp": "Songs_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Songs.Startup", "rp": "Songs_Startup.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
