@@ -23,7 +23,8 @@ namespace FrontEnd.Controllers
         public async Task<IActionResult> Index()
         {
             //var mergeService = "http://localhost:43813/merge";
-            var mergeService = $"{Configuration["mergeServiceURL"]}/merge";
+            //var mergeService = $"{Configuration["mergeServiceURL"]}/merge";
+            var mergeService = "https://cemtest3.azurewebsites.net/merge";
             var mergeResponseCall = await new HttpClient().GetStringAsync(mergeService);
             ViewBag.responseCall = mergeResponseCall;
             return View();
