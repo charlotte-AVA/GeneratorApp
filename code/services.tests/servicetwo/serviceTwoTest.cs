@@ -2,7 +2,7 @@
 using Singers.Controllers;
 using Xunit;
 
-namespace services.tests.serviceone
+namespace services.tests.servicetwo
 {
     public class serviceTwoTests //make this public!
     {
