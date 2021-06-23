@@ -10,8 +10,8 @@ namespace services.tests.servicethree
     {
         //private AppSettings appSettings = new AppSettings()
         //{
-        //    numbersServiceURL = "https://gwl-numbers.azurewebsites.net", //replace with /SONGS URL
-        //    lettersServiceURL = "https://gwl-letters.azurewebsites.net" // replace with /SINGERS URL
+        //    songsServiceURL = "https://cemtest1.azurewebsites.net", //replace with /SONGS URL
+        //    singersServiceURL = "https://cemtest2.azurewebsites.net" // replace with /SINGERS URL
         //};
 
         //[Fact]
