@@ -12,13 +12,17 @@ variable "sp_name" {
 }
 
 variable "s1_name" {
-    default = "Songs"
+    default = "CEM-Songs"
 }
 
 variable "s2_name" {
-    default = "Singers"
+    default = "CEM-Singers"
 }
 
 variable "s3_name" {
-    default = "Merge"
+    default = "CEM-Merge"
+}
+
+variable "s4_name" {
+    default = "CEM-FrontEnd"
 }

@@ -41,7 +41,7 @@ resource "azurerm_app_service" "webapp1" {
 
 resource "azurerm_app_service" "webapp2" {
     # creating web app
-    name = var.s3_name
+    name = var.s2_name
     resource_group_name=azurerm_resource_group.main.name
     location=azurerm_resource_group.main.location
     app_service_plan_id=azurerm_app_service_plan.sp.id
@@ -50,6 +50,14 @@ resource "azurerm_app_service" "webapp2" {
 resource "azurerm_app_service" "webapp3" {
     # creating web app
     name = var.s3_name
+    resource_group_name=azurerm_resource_group.main.name
+    location=azurerm_resource_group.main.location
+    app_service_plan_id=azurerm_app_service_plan.sp.id
+}
+
+resource "azurerm_app_service" "webapp4" {
+    # creating web app
+    name = var.s4_name
     resource_group_name=azurerm_resource_group.main.name
     location=azurerm_resource_group.main.location
     app_service_plan_id=azurerm_app_service_plan.sp.id
