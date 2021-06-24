@@ -24,13 +24,13 @@ No previous scores are logged.
 
 ##### Product planning
 
-Technologies used: 
+###### Technologies used: 
 - Azure Boards - Project Management
 - C# / ASP.NET - core web app MVC (1); core web API (3)
 - SQL(Azure) - Database
 - XUnit - testing
 - Git - VCS
-- Azure Pipelines - CI/CD Server
+- Git Hub Actions (f. Azure Pipelines) - CI/CD Server
 - Azure - Cloud Platform
 - Ansible - Configuration Management
 - Terraform - Infrastructure as Code
@@ -69,3 +69,5 @@ A page is loaded and a MUSCIAL IMPRESSION is generated, it is "SONG X by ARTIST 
 If scoring with points:  
 Because the SONG and SINGER match, the user gets an additional +3 point(s), this is described in the logic of service 4.
 The Back-end completes the logic to decide the prize number, based upon the account number originally created, and displays this for the user.
+
+**_To resrat the game press the refresh button!_**
