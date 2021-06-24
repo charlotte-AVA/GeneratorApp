@@ -32,7 +32,6 @@ No previous scores are logged.
 - Git - VCS
 - Git Hub Actions (f. Azure Pipelines) - CI/CD Server
 - Azure - Cloud Platform
-- Ansible - Configuration Management
 - Terraform - Infrastructure as Code
 
 ##### Product design
@@ -70,4 +69,4 @@ If scoring with points:
 Because the SONG and SINGER match, the user gets an additional +3 point(s), this is described in the logic of service 4.
 The Back-end completes the logic to decide the prize number, based upon the account number originally created, and displays this for the user.
 
-**_To resrat the game press the refresh button!_**
+**_To RESTART the game press the REFRESH button!_**
